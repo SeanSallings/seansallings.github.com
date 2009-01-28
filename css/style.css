@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana;
+    background-color: black;
+}
+
+#navlist {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#navlist li {
+    background:#600;
+    border:1px solid black;
+    float:left;
+    height:50px;
+    margin:5px;
+    width:100px;
+    text-align:center;
+}
+
+#navlist li a {
+    color: white;
+}
