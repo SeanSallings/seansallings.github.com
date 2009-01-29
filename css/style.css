@@ -1,24 +1,48 @@
 body {
     font-family: Verdana;
     background-color: black;
+
 }
 
 #navlist {
     list-style-type:none;
     margin:0;
     padding:0;
+    position:fixed;
 }
 
 #navlist li {
-    background:#600;
+    background:#660000 url(../img/li_gradient.png) repeat scroll 0 0;
     border:1px solid black;
-    float:left;
-    height:50px;
+    float:none;
+    height:25px;
     margin:5px;
-    width:100px;
     text-align:center;
+    width:155px;
 }
+
 
 #navlist li a {
     color: white;
+    text-decoration: none;
+}
+
+#navlist li a:visited {
+    color: white;
+}
+
+#content {
+    margin-left: 177px;
+    color: white;
+}
+
+#content h1 {
+    width: 276px;
+    height: 110px;
+    text-indent: -10000px;
+    background: url(http://www.google.com/intl/en_ALL/images/logo.gif);
+}
+
+p img {
+    float: left;
 }
