@@ -6,9 +6,13 @@ body {
 
 #navlist {
     list-style-type:none;
-    margin:0;
+    margin:0px 0px 0px 0px;
     padding:0;
     position:fixed;
+    top: 16px;
+    left:0px;
+    right:0px;
+    bottom:0px;
 }
 
 #navlist li {
@@ -32,17 +36,22 @@ body {
 }
 
 #content {
-    margin-left: 177px;
-    color: white;
+   border:none;
+   color:white;
+   margin-left:177px;
+   margin-right:100px;
+   padding:0 10px 10px 15px;
+    
 }
 
 #content h1 {
-    width: 276px;
+    width: 550px;
     height: 110px;
     text-indent: -10000px;
-    background: url(http://www.google.com/intl/en_ALL/images/logo.gif);
+    background: url(../img/seansallings.png);
 }
 
 p img {
     float: left;
+    padding-right:5px
 }
