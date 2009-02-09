@@ -4,6 +4,7 @@ body {
 
 }
 
+
 #navlist {
     list-style-type:none;
     margin:0px 0px 0px 0px;
@@ -20,7 +21,7 @@ body {
     height:25px;
     margin:5px;
     text-align:center;
-    width:155px;
+    width:180px;
 }
 
 
@@ -34,7 +35,7 @@ body {
 }
 
 #content {
-   border:none;
+   border:none;  
    color:white;
    margin-left:177px;
    margin-right:100px;
@@ -44,12 +45,84 @@ body {
 
 #content h1 {
     width: 550px;
-    height: 110px;
+    height: 90px;
     text-indent: -10000px;
+}
+
+#index #content h1 {
     background: url(../img/seansallings.png);
 }
 
+#logo #content h1 {
+    background: url(../img/logo.png);
+}
+
+#businesscards #content h1 {
+    background: url(../img/businesscards.png);
+}
+
+#letterhead #content h1 {
+    background: url(../img/letterhead.png);
+}
+
+#flyers #content h1 {
+    background: url(../img/flyers.png);
+}
+
+#flash #content h1 {
+    background: url(../img/flashdesign.png);
+}
+
+#misc #content h1 {
+    background: url(../img/misc.png);
+}
+
+
 p img {
     float: left;
-    padding-right:5px
+    padding-right:5px;
 }
+
+
+p { 
+    clear: left;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+#smallpics {
+}
+
+#smallpics img {
+    margin: 40px
+}
+
+
+
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(overlay.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+	}
+	
