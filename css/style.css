@@ -120,7 +120,7 @@ p {
 #overlay{ background-image: url(overlay.png); }
 
 * html #overlay{
-	background-color: #333;
+	background-color: #111;
 	back\ground-color: transparent;
 	background-image: url(blank.gif);
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
