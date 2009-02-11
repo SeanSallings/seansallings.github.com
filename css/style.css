@@ -43,6 +43,7 @@ body {
     
 }
 
+
 #content h1 {
     width: 550px;
     height: 90px;
@@ -95,7 +96,8 @@ p {
 }
 
 #smallpics img {
-    margin: 40px
+    margin: 40px;
+    border: none;
 }
 
 
