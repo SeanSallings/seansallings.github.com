@@ -102,9 +102,11 @@ p {
 }
 
 #footer {
-background-color: white;
-bottom: 40px;
-left: 40px;
+    background-color:black;
+    color:white;
+    font-size:12px;
+    text-align:center;
+
 
 }
 
